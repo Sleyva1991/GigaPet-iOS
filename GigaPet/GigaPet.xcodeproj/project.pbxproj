@@ -17,6 +17,7 @@
 		3223BCB222C1787C00F4C684 /* ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3223BCB022C1787C00F4C684 /* ChildViewController.xib */; };
 		3223BCB422C1801A00F4C684 /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCB322C1801A00F4C684 /* ParentModel.swift */; };
 		3223BCB722C1815F00F4C684 /* ChildModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCB622C1815F00F4C684 /* ChildModel.swift */; };
+		3223BCB922C1878F00F4C684 /* FoodEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCB822C1878F00F4C684 /* FoodEntryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3223BCB022C1787C00F4C684 /* ChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildViewController.xib; sourceTree = "<group>"; };
 		3223BCB322C1801A00F4C684 /* ParentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModel.swift; sourceTree = "<group>"; };
 		3223BCB622C1815F00F4C684 /* ChildModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildModel.swift; sourceTree = "<group>"; };
+		3223BCB822C1878F00F4C684 /* FoodEntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodEntryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				3223BCB322C1801A00F4C684 /* ParentModel.swift */,
 				3223BCB622C1815F00F4C684 /* ChildModel.swift */,
+				3223BCB822C1878F00F4C684 /* FoodEntryModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3223BCB722C1815F00F4C684 /* ChildModel.swift in Sources */,
+				3223BCB922C1878F00F4C684 /* FoodEntryModel.swift in Sources */,
 				3223BCA422C1776A00F4C684 /* LoginViewController.swift in Sources */,
 				3223BCB422C1801A00F4C684 /* ParentModel.swift in Sources */,
 				3223BCAD22C1785000F4C684 /* ParentPortalCollectionViewController.swift in Sources */,
