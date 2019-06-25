@@ -17,6 +17,10 @@
 		3223BCB222C1787C00F4C684 /* ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3223BCB022C1787C00F4C684 /* ChildViewController.xib */; };
 		3223BCCE22C1A17700F4C684 /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCCD22C1A17700F4C684 /* ParentModel.swift */; };
 		3223BCD022C1A18A00F4C684 /* ChildModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCCF22C1A18A00F4C684 /* ChildModel.swift */; };
+		3223BCD422C1A36800F4C684 /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCD322C1A36800F4C684 /* Bearer.swift */; };
+		3223BCD622C1A37400F4C684 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCD522C1A37400F4C684 /* User.swift */; };
+		3223BCD822C1A38500F4C684 /* FoodEntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCD722C1A38500F4C684 /* FoodEntryModel.swift */; };
+		3223BCDA22C1A3A200F4C684 /* SignUpSignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCD922C1A3A200F4C684 /* SignUpSignInController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		3223BCB022C1787C00F4C684 /* ChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildViewController.xib; sourceTree = "<group>"; };
 		3223BCCD22C1A17700F4C684 /* ParentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentModel.swift; sourceTree = "<group>"; };
 		3223BCCF22C1A18A00F4C684 /* ChildModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildModel.swift; sourceTree = "<group>"; };
+		3223BCD322C1A36800F4C684 /* Bearer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
+		3223BCD522C1A37400F4C684 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3223BCD722C1A38500F4C684 /* FoodEntryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodEntryModel.swift; sourceTree = "<group>"; };
+		3223BCD922C1A3A200F4C684 /* SignUpSignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpSignInController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +73,10 @@
 		3223BC7122C171F700F4C684 /* GigaPet */ = {
 			isa = PBXGroup;
 			children = (
-				3223BCCD22C1A17700F4C684 /* ParentModel.swift */,
-				3223BCCF22C1A18A00F4C684 /* ChildModel.swift */,
+				3223BCD222C1A35600F4C684 /* Model */,
 				3223BCA822C177E800F4C684 /* View */,
 				3223BCA722C177AD00F4C684 /* View Controllers */,
+				3223BCDB22C1A3A600F4C684 /* Controllers */,
 			);
 			path = GigaPet;
 			sourceTree = "<group>";
@@ -102,6 +110,26 @@
 			);
 			name = View;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		3223BCD222C1A35600F4C684 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3223BCCD22C1A17700F4C684 /* ParentModel.swift */,
+				3223BCCF22C1A18A00F4C684 /* ChildModel.swift */,
+				3223BCD722C1A38500F4C684 /* FoodEntryModel.swift */,
+				3223BCD322C1A36800F4C684 /* Bearer.swift */,
+				3223BCD522C1A37400F4C684 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3223BCDB22C1A3A600F4C684 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3223BCD922C1A3A200F4C684 /* SignUpSignInController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +207,10 @@
 				3223BCD022C1A18A00F4C684 /* ChildModel.swift in Sources */,
 				3223BCA422C1776A00F4C684 /* LoginViewController.swift in Sources */,
 				3223BCCE22C1A17700F4C684 /* ParentModel.swift in Sources */,
+				3223BCDA22C1A3A200F4C684 /* SignUpSignInController.swift in Sources */,
+				3223BCD822C1A38500F4C684 /* FoodEntryModel.swift in Sources */,
+				3223BCD422C1A36800F4C684 /* Bearer.swift in Sources */,
+				3223BCD622C1A37400F4C684 /* User.swift in Sources */,
 				3223BCAD22C1785000F4C684 /* ParentPortalCollectionViewController.swift in Sources */,
 				3223BC7322C171F700F4C684 /* AppDelegate.swift in Sources */,
 				3223BCB122C1787C00F4C684 /* ChildViewController.swift in Sources */,
