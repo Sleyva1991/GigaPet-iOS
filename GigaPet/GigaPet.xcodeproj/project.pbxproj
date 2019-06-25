@@ -24,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320879F622C2A8DC002BF9F0 /* FlappyBirdy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlappyBirdy.ttf; sourceTree = "<group>"; };
+		320879F722C2A8EB002BF9F0 /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VCR_OSD_MONO_1.001.ttf; sourceTree = "<group>"; };
 		3223BC6F22C171F700F4C684 /* GigaPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GigaPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3223BC7222C171F700F4C684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3223BC7922C171F800F4C684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +89,8 @@
 				3223BC7222C171F700F4C684 /* AppDelegate.swift */,
 				3223BC7922C171F800F4C684 /* Assets.xcassets */,
 				3223BC7E22C171F800F4C684 /* Info.plist */,
+				320879F622C2A8DC002BF9F0 /* FlappyBirdy.ttf */,
+				320879F722C2A8EB002BF9F0 /* VCR_OSD_MONO_1.001.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
