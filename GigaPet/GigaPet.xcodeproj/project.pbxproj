@@ -28,6 +28,8 @@
 		3223BCAC22C1785000F4C684 /* ParentPortalCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParentPortalCollectionViewController.xib; sourceTree = "<group>"; };
 		3223BCAF22C1787C00F4C684 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 		3223BCB022C1787C00F4C684 /* ChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildViewController.xib; sourceTree = "<group>"; };
+		E830AFEB22C2A5FA00AEC09A /* VCR_OSD_MONO_1.001.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = VCR_OSD_MONO_1.001.ttf; path = ../../../../../../../Downloads/VCR_OSD_MONO_1.001.ttf; sourceTree = "<group>"; };
+		E830AFEC22C2A69D00AEC09A /* FlappyBirdy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FlappyBirdy.ttf; path = ../../../../../../flappybirdy/FlappyBirdy.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,8 @@
 				3223BC7222C171F700F4C684 /* AppDelegate.swift */,
 				3223BC7922C171F800F4C684 /* Assets.xcassets */,
 				3223BC7E22C171F800F4C684 /* Info.plist */,
+				E830AFEC22C2A69D00AEC09A /* FlappyBirdy.ttf */,
+				E830AFEB22C2A5FA00AEC09A /* VCR_OSD_MONO_1.001.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
