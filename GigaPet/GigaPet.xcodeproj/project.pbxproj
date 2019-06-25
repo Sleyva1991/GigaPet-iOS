@@ -15,6 +15,8 @@
 		3223BCAE22C1785000F4C684 /* ParentPortalCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3223BCAC22C1785000F4C684 /* ParentPortalCollectionViewController.xib */; };
 		3223BCB122C1787C00F4C684 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCAF22C1787C00F4C684 /* ChildViewController.swift */; };
 		3223BCB222C1787C00F4C684 /* ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3223BCB022C1787C00F4C684 /* ChildViewController.xib */; };
+		3223BCCE22C1A17700F4C684 /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCCD22C1A17700F4C684 /* ParentModel.swift */; };
+		3223BCD022C1A18A00F4C684 /* ChildModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3223BCCF22C1A18A00F4C684 /* ChildModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3223BCAC22C1785000F4C684 /* ParentPortalCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParentPortalCollectionViewController.xib; sourceTree = "<group>"; };
 		3223BCAF22C1787C00F4C684 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 		3223BCB022C1787C00F4C684 /* ChildViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildViewController.xib; sourceTree = "<group>"; };
+		3223BCCD22C1A17700F4C684 /* ParentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentModel.swift; sourceTree = "<group>"; };
+		3223BCCF22C1A18A00F4C684 /* ChildModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		3223BC7122C171F700F4C684 /* GigaPet */ = {
 			isa = PBXGroup;
 			children = (
+				3223BCCD22C1A17700F4C684 /* ParentModel.swift */,
+				3223BCCF22C1A18A00F4C684 /* ChildModel.swift */,
 				3223BCA822C177E800F4C684 /* View */,
 				3223BCA722C177AD00F4C684 /* View Controllers */,
 			);
@@ -170,7 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3223BCD022C1A18A00F4C684 /* ChildModel.swift in Sources */,
 				3223BCA422C1776A00F4C684 /* LoginViewController.swift in Sources */,
+				3223BCCE22C1A17700F4C684 /* ParentModel.swift in Sources */,
 				3223BCAD22C1785000F4C684 /* ParentPortalCollectionViewController.swift in Sources */,
 				3223BC7322C171F700F4C684 /* AppDelegate.swift in Sources */,
 				3223BCB122C1787C00F4C684 /* ChildViewController.swift in Sources */,
